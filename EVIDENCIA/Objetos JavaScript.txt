@@ -1,0 +1,9 @@
+Un objeto en JavaScript es una estructura que permite almacenar y organizar información relacionada en un solo lugar. Funciona mediante pares de clave y valor, donde la clave identifica un dato y el valor es la información asociada. Los objetos se utilizan para representar entidades del mundo real como personas, productos, autos o usuarios, ya que permiten agrupar características y comportamientos en una sola unidad.
+
+Una interfaz es un concepto propio de TypeScript (no existe en JavaScript puro). Sirve para definir la forma que debe tener un objeto, es decir, qué propiedades debe contener y qué tipo de datos debe tener cada una. Su propósito principal es ayudar a prevenir errores, mejorar la legibilidad del código y facilitar el mantenimiento, ya que obliga a que los objetos cumplan con una estructura previamente definida.
+
+Una propiedad opcional también es una característica de TypeScript. Se utiliza cuando una propiedad puede existir o no dentro de un objeto. Esto es útil cuando no siempre se cuenta con toda la información. Al marcar una propiedad como opcional, se indica que el objeto seguirá siendo válido aunque dicha propiedad no esté presente.
+
+La destructuración de objetos es una característica de JavaScript que permite extraer propiedades de un objeto y asignarlas directamente a variables. Esto simplifica el código, reduce repetición y mejora la claridad, especialmente cuando se trabaja con objetos grandes o se reciben objetos como parámetros en funciones.
+
+Para acceder a las propiedades de un objeto, JavaScript ofrece dos formas. La primera es mediante la notación de punto, que se utiliza cuando se conoce el nombre de la propiedad. La segunda es la notación con corchetes, que se emplea cuando el nombre de la propiedad es dinámico o se obtiene a partir de una variable. Ambas permiten leer o modificar los valores almacenados dentro del objeto.

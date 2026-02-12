@@ -1,0 +1,39 @@
+1. ¿Que es GitHub?
+Es una plataforma en línea que permite alojar, administrar y compartir proyectos que usan git.
+Se utiliza principalmente para guardar código, trabajar en equipo, llevar el control de versiones y colaborar con personas de cualquier parte del mundo.
+
+2. ¿Que es un repositorio en GitHub?
+Un repositorio en GitHub es el lugar donde se guarda un proyecto. Contiene todos los archivos, carpetas y el historial de cambios del proyecto, puede ser publico o privado
+
+3. ¿Qué tipos de archivos se pueden almacenar en GitHub?
+En GitHub se pueden almacenar muchos tipos de archivo, por ejemplo:
+- Archivos de código
+- Archivos de texto
+- Archivos de documentación
+- Archivos de configuración 
+- Imágenes y recursos del proyecto
+- Datos pequeños y archivos del proyecto
+
+4. ¿Para que sirve un perfil de GitHub?
+- Tus proyectos y repositorios
+- Tu actividad y contribuciones
+- Tus habilidades técnicas
+- Funciona como un portafolio profesional, especialmente para estudiantes y programadores.
+
+5. Menciona al menos tres ventajas de usar GitHub
+- Permite trabajar en equipo de forma organizada.
+- Guarda los proyectos como respaldo en la nube.
+- Lleva un control de versiones de los archivos.
+- Facilita compartir proyectos con otras personas o empresas.
+
+6. ¿Cómo crees que GitHub puede ayudarte como estudiante?
+- Permite organizar tareas y proyectos escolares.
+- Ayuda a aprender herramientas usadas en el mundo laboral.
+- Facilita el trabajo en equipo.
+- Sirve como portafolio para el futuro profesional.
+
+7. ¿Cómo crees que GitHub puede ayudar a las empresas?
+- Permite colaborar entre equipos grandes.
+- Facilita el control y revisión del código.
+- Ayuda a detectar y corregir errores.
+- Mejora la productividad y organización de proyectos.

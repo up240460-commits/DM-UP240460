@@ -1,0 +1,37 @@
+1. ¿Que es git? 
+ Git es un sistema de control de versiones. Sirve para guardar el historial de cambios de un proyecto (normalmente código), permitiendo volver a versiones anteriores, comparar cambios y trabajar de forma organizada.
+
+2. ¿Cuál es la diferencia entre Git y GitHub?
+- Git es la herramienta que se instala en la computadora y se usa para controlar versiones
+- GitHub es una plataforma en internet que permite guardar proyectos Git en la nube y colaborar con otras personas.
+En resumen GIT es una herramienta y GITHUB es un servicio en línea que  usa Git
+
+3. ¿Que significa "control de versiones" y por qué es util?
+El control de versiones es un sistema que registra cada cambio realizado en un proyecto.
+Es util porque:
+- Permite regresar a versiones anteriores si algo falla
+- Guarda el historial completo del proyecto
+- Facilita el trabajo en equipo sin sobrescribir archivos
+- Ayuda a detectar errores y cuando se introdujeron
+
+4. ¿Se puede usar Git sin GitHub?
+Si, Git se puede usar sin GitHub.
+Git funciona de manera local, es decir, es tu propia computadora. puedes:
+- Crear un repositorio local
+- Guardar versiones (commits)
+- Ver el historial de cambios
+
+¿Cómo?
+Se usa desde la terminal o consola, por ejemplo.
+- git init -> crea un repositorio local
+- git add -> agrega archivos al control de versiones
+- git commit -> guarda los cambios
+
+5. ¿En que tipo de proyectos o trabajos se usa Git?
+Git se usa en muchos ámbitos, por ejemplo:
+- Desarrollo de software (apps, paginas web, sistemas)
+- Proyectos en equipo
+- Desarrollo de aplicaciones móviles 
+- Ciencia de datos móviles 
+- Investigación y proyectos académicos 
+- Empresas y tecnología 
