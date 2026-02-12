@@ -1,3 +1,77 @@
-1. ¿Qué es React? React es una biblioteca de JavaScript de código abierto desarrollada por Facebook, Se utiliza para construir interfaces de usuario (IU) interactivas y eficientes para aplicaciones web. Su característica principal es que permite dividir la interfaz en piezas independientes y reutilizables. Funciona mediante un "DOM Virtual" que optimiza la actualización de pagina, haciendo que las aplicaciones sean muy rápidas.
+1. ¿Qué es React? 
+React es una biblioteca de JavaScript de código abierto desarrollada por Facebook, Se utiliza para construir interfaces de usuario (IU) interactivas y eficientes para aplicaciones web. Su característica principal es que permite dividir la interfaz en piezas independientes y reutilizables. Funciona mediante un "DOM Virtual" que optimiza la actualización de pagina, haciendo que las aplicaciones sean muy rápidas.
 
-2. ¿Qué es React Native? Es un framework de código abierto, también creado por Meta, que permite crear aplicaciones móviles nativas para iOS y Android utilizando JavaScript y React. A diferencia de React (web), React Native no usa HTML ni CSS estándar; es su lugar utiliza componentes que se traducen (renderizan) en la interfaz nativa del teléfono, logrando que la aplicación se sienta y comporte como una app nativa real, no como una pagina web incrustada.
+2. ¿Qué es React Native? 
+Es un framework de código abierto, también creado por Meta, que permite crear aplicaciones móviles nativas para iOS y Android utilizando JavaScript y React. A diferencia de React (web), React Native no usa HTML ni CSS estándar; es su lugar utiliza componentes que se traducen (renderizan) en la interfaz nativa del teléfono, logrando que la aplicación se sienta y comporte como una app nativa real, no como una pagina web incrustada.
+
+3. ¿Qué es JSX o TSX? 
+- JSX (JavaScript XML): Es una extension de la sintaxis de JavaScript que permite escribir código con una estructura similar a HTML dentro de un archivo de JavaScript. Aunque parece HTML, en realidad es "azúcar sintáctica" que herramientas como Babel convierten en llamadas a funciones de JavaScript 
+- TSX: Es exactamente lo mismo que JSX, pero utilizando cuando estas programando con TypeScript. La "T" indica que el archivo soporta el tipado estático de TypeScript.
+
+4. ¿Qué es un componente de React?
+Un componente es el bloque de construcción fundamental de una aplicación React. Es una pieza de código abierto aislada y reutilizable que representa una parte de la interfaz de usuario (como un botón, un menu o un formulario).
+
+5. ¿Qué es un componente en React Native?
+Conceptualmente, es idéntico a un componente en React: es una función o clase reutilizable que define una parte de la interfaz. La gran diferencia técnica es que, en lugar de devolver etiquetas HTML (como <div> o <h1>), devuelve componentes nativos móviles (como <View> o <Text>).
+
+6. ¿Cuál es el propósito de un componente?
+El propósito principal es la reutilización y la modularidad.
+- Permite dividir una interfaz compleja en partes pequeñas y manejables ("divide y vencerás").
+- Facilita el mantenimiento: si necesitas cambiar el diseño de un botón, solo modificas el componente "Botón" y el cambio se aplica en toda la aplicación.
+
+7. ¿Cuáles son las etiquetas base de React y su composición con React Native?
+
+FUNCION			REACT			REACT NATIVE(Móvil)
+Contenedor principal	<div>, <section>	<View>
+Texto			<p>, <h1>, <span>	<Text>
+Imágenes 		<img>			<Image>	
+Botones/Clics		<button>		<Button>, <TouchableOpacity>
+Listas con scroll	<u1>, <div>		<FlatList>, <ScrollView>
+Entrada de texto 	<input type="text">	<TextInput>
+
+8. ¿Cuál es la estructura base de un componente en React Native?
+
+// 1. Importaciones
+import React from 'react';
+import { View, Text, StyleSheet } from 'react-native';
+
+// 2. Definición del componente
+const MiComponente = () => {
+  // Lógica o estado iría aquí
+
+  // 3. Retorno (Lo que se ve en pantalla)
+  return (
+    <View style={styles.contenedor}>
+      <Text>Hola Mundo</Text>
+    </View>
+  );
+};
+
+// 4. Estilos (Opcional pero recomendado)
+const styles = StyleSheet.create({
+  contenedor: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+});
+
+// 5. Exportación
+export default MiComponente;
+
+9. ¿Qué es un Hook?
+Los Hooks son funciones especiales introducidas en React 16.8 que permite "enganchar" (hook into) características de React, como el manejo del estado y el ciclo de vida, desde componentes funcionales. Antes de los Hooks, estas características solo estaban disponibles en los componentes de clase. Los mas comunes son useState y useEffect.
+
+10. ¿Qué es useState(), como funciona, su estructura y qué principios de JavaScript utiliza?
+Es un Hook que permite añadir una variable de estado a un componente funcional. Permite que el componente "recuerde" información entre renderizados.
+Funciona cuando tu le das el valor inicial y useState te devuelve dos cosas: el valor actual y una función para actualizar ese valor. Cuando usas la función de actualización, React vuelve a renderizar el componente con el nuevo dato.
+Estructura:
+const [contador, setContador] = useState(0);
+// contador: variable que guarda el valor (0 inicialmente).
+// setContador: función para cambiar el valor.
+// 0: valor inicial.
+
+
+
+
+
